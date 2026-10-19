@@ -18,9 +18,9 @@ npm run lint
 
 ## GitHub Pages
 
-The site is configured for the `React-Updated` repository path. The GitHub Actions workflow builds and deploys the site to GitHub Pages whenever changes are pushed to `Dev` or `main`.
+The site is configured for the `React-Updated` repository path. GitHub Pages should use **GitHub Actions** as the build and deployment source. The workflow builds and deploys the site whenever changes are pushed to `Dev` or `main`.
 
-After the first workflow run, enable GitHub Pages in the repository settings and select **GitHub Actions** as the build and deployment source if it is not already enabled. The site URL will be `https://akanna1218.github.io/React-Updated/`.
+The site URL is `https://akanna1218.github.io/React-Updated/`.
 
 ## Project notes
 
