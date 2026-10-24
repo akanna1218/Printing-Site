@@ -18,9 +18,9 @@ npm run lint
 
 ## GitHub Pages
 
-The site is configured for the `React-Updated` repository path. The GitHub Actions workflow builds the site on pushes to `Dev` and publishes the generated files to the `gh-pages` branch.
+The GitHub Actions workflow builds the site on pushes to `Dev` and publishes the generated files to the `gh-pages` branch. The Pages base path is derived from the repository name, so it updates automatically if the repository is renamed. For a repository named `<owner>.github.io`, the site is published at the domain root.
 
-In the repository's **Settings → Pages**, set **Source** to **Deploy from a branch**, choose `gh-pages` and `/(root)`, then save. The site URL is `https://akanna1218.github.io/React-Updated/`.
+In the repository's **Settings → Pages**, set **Source** to **Deploy from a branch**, choose `gh-pages` and `/(root)`, then save. For a project repository, the URL is `https://<owner>.github.io/<repository>/`.
 
 ## Project notes
 
